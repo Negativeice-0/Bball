@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: brown;
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+}
+
+#scoreboard-home {
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;   
+}
+
+#scoreboard-guest {
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    left: 337px;
+    top: 125px;
+    border-radius: 5px;
+}
+
+span {
+    color:aliceblue;
+    font-size: 100px;
+    padding: 25%;
+}
+
+#plus-one-home {
+    /* below used to just be top from figma design at 300px */
+    margin-top: 9px;
+    border-radius: nullpx;
+    padding: 10px 15px;
+}
+
+#plus-two-home {
+    margin-top: 9px;
+    border-radius: nullpx;
+    padding: 10px 15px;
+}
+
+#plus-three-home {
+    margin-top: 9px;
+    border-radius: nullpx;
+    padding: 10px 15px;
+}
+
+#plus-one-guest {
+    margin-top: 9px;
+    border-radius: nullpx;
+    padding: 10px 15px;
+}
+
+#plus-two-guest {
+    margin-top: 9px;
+    border-radius: nullpx;
+    padding: 10px 15px;
+}
+
+#plus-three-guest {
+    margin-top: 9px;
+    border-radius: nullpx;
+    padding: 10px 15px;
+}
